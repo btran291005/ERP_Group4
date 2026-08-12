@@ -8,7 +8,7 @@ export default {
   },
   template: `
     <div class="container-fluid py-3">
-      <h4 class="mb-3">1.1 Demand & Forecast (Dự báo nhu cầu)</h4>
+      <h4 class="mb-3">1.1 Demand & Forecast</h4>
       <div class="alert alert-secondary">
         TODO: build this screen — see the matching entry in the functional spec
         and the API routes wired for it in backend/routes/api.php.
