@@ -27,7 +27,7 @@ adidas-procurement-erp/
 │   ├── routes/api.php       # full route table, grouped by role (screens 1.x .. 7.x)
 │   ├── database/
 │   │   ├── schema.sql       # CREATE TABLE for all 24 entities
-│   │   └── seeders/seed_core.sql
+│   │   └── seed_data.sql
 │   ├── uploads/invoices/    # Invoice.AttachmentURL files land here
 │   ├── composer.json
 │   └── .env.example
@@ -51,7 +51,7 @@ cd backend
 cp .env.example .env        # fill in DB credentials + JWT_SECRET
 composer install            # pulls phpdotenv + firebase/php-jwt
 mysql -u root -p < database/schema.sql
-mysql -u root -p < database/seeders/seed_core.sql
+mysql -u root -p < database/seed_data.sql
 php -S localhost:8000 -t public
 ```
 
