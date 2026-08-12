@@ -1,0 +1,5 @@
+backend/vendor/
+backend/.env
+backend/uploads/invoices/*
+!backend/uploads/invoices/.gitkeep
+.DS_Store
